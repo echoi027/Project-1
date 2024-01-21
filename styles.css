@@ -5,7 +5,25 @@ body {
 	animation: gradient 8.5s ease infinite;
 	height: 110vh;
 }
-
+.button {
+    background-color: hsl(0, 0%, 100%); /* Green */
+    border: 3px solid #239C4F;
+    color: #13221A;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif; 
+    font-size: 16px;
+    position:absolute;
+    top: 30px;
+    right:80px;
+    margin: 20px;
+    margin-right:39px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 16px;
+  }
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -45,17 +63,20 @@ p{ font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction:row;
     padding:10px;
+    padding-top: -5px;
     }
   
  
   .row2{
     padding-top:75px;
     width: 450px;
+   
     }
  .row3{
         padding-top:75px;
         width: 450px;
         padding-left:80px;
+       
         }
 
  /* unvisited link*/
