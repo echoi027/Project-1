@@ -2,7 +2,7 @@
 body {
 	background: linear-gradient(-45deg,#111714, #13221A, #239C4F, #FFF1AA );
 	background-size: 400% 400%;
-	animation: gradient 9s ease infinite;
+	animation: gradient 8.5s ease infinite;
 	height: 110vh;
 }
 
@@ -57,9 +57,24 @@ p{ font-family: 'Montserrat', sans-serif;
         width: 450px;
         padding-left:80px;
         }
-    
-  
 
+ /* unvisited link*/
+a:link { color:#239C4F;
+}
+  
+/*visited link*/
+a:visited{
+    color:#ffffff;
+}
+/*mouse over link*/
+a:hover{
+    color:#FFF1AA;
+}
+
+/*selected link*/
+a:active {
+    background-color:antiquewhite;
+}
    
   
 
