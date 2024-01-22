@@ -1,11 +1,11 @@
 
 body {
-	background: linear-gradient(-45deg,#111714, #13221A, #239C4F, #FFF1AA );
+	background: linear-gradient(45deg,#111714, #13221A, #239C4F, #FFF1AA );
 	background-size: 400% 400%;
 	animation: gradient 8.5s ease infinite;
-	height: 110vh;
+	height: 100vh;
 }
-.button {
+button {
     background-color: hsl(0, 0%, 100%); /* Green */
     border: 3px solid #239C4F;
     color: #13221A;
@@ -46,6 +46,14 @@ h2{
     color:#ffffff;
     padding-left:10px;
     font-size: 24px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color:#ffffff;
+    padding-left:60px;
+    padding-top: 20px;
+    font-size: 20px;
+
 }
 ul{
     
@@ -95,6 +103,12 @@ a:hover{
 /*selected link*/
 a:active {
     background-color:antiquewhite;
+    color:darkred;
+}
+.exp{
+    padding-top:20px;
+    width: 1200px;
+    padding-left: 50px;
 }
    
   
