@@ -38,33 +38,34 @@ button {
 img{
     width:400px;
     height:fit-content;
-    padding-left: 50px;
+    padding-left: 35px;
     
 }
 h2{
     font-family: 'Montserrat', sans-serif;
     color:#ffffff;
     padding-left:10px;
-    font-size: 24px;
+    font-size: 20px;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
     color:#ffffff;
-    padding-left:60px;
+    padding-left:50px;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 40px;
+   
 
 }
 ul{
     
-    padding-left: 80px;
+    padding-left: 50px;
     color:#ffffff;
     width: 450px;
 }
 
 p{ font-family: 'Montserrat', sans-serif;
     color:#ffffff;
-    padding-left:8px;
+    padding-left:6px;
 
 }
 .flex-container {
@@ -76,12 +77,13 @@ p{ font-family: 'Montserrat', sans-serif;
   
  
   .row2{
-    padding-top:75px;
+    padding-top:62px;
     width: 450px;
+    align-items:center;
    
     }
  .row3{
-        padding-top:75px;
+        padding-top:62px;
         width: 450px;
         padding-left:80px;
        
@@ -108,7 +110,9 @@ a:active {
 .exp{
     padding-top:20px;
     width: 1400px;
-    padding-left: 50px;
+    font-size: 70px;
+   padding-left:50px;
+    
 }
    
   
