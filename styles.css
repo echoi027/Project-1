@@ -24,6 +24,9 @@ button {
     transition-duration: 0.4s;
     border-radius: 16px;
   }
+  button:hover{
+    background-color: #239C4F;
+  }
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -45,6 +48,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     color:#ffffff;
     padding-left:10px;
+    padding-right:10px;
     font-size: 20px;
 }
 h1{
@@ -57,15 +61,18 @@ h1{
 
 }
 ul{
-    
-    padding-left: 50px;
+    list-style-type: '\1F4A1'; // 💡
+    padding-left: 70px;
     color:#ffffff;
     width: 450px;
 }
 
+
+    
 p{ font-family: 'Montserrat', sans-serif;
     color:#ffffff;
     padding-left:6px;
+    padding-top: 5px;
 
 }
 .flex-container {
@@ -77,13 +84,14 @@ p{ font-family: 'Montserrat', sans-serif;
   
  
   .row2{
-    padding-top:62px;
+    padding-top: 25px;
     width: 450px;
     align-items:center;
+    padding-left: 80px;
    
     }
  .row3{
-        padding-top:62px;
+        padding-top:25px;
         width: 450px;
         padding-left:80px;
        
@@ -99,13 +107,13 @@ a:visited{
 }
 /*mouse over link*/
 a:hover{
-    color:#FFF1AA;
+    color:yellow;
 }
 
 /*selected link*/
 a:active {
-    background-color:antiquewhite;
-    color:darkred;
+    background-color:#f8de60;
+    color:orangered;
 }
 .exp{
     padding-top:20px;
