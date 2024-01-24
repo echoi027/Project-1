@@ -25,7 +25,7 @@ button {
     border-radius: 16px;
   }
   button:hover{
-    background-color: #239C4F;
+    background-color: #FFF1AA;
   }
 @keyframes gradient {
 	0% {
@@ -70,9 +70,10 @@ ul{
 
     
 p{ font-family: 'Montserrat', sans-serif;
-    color:#ffffff;
+    color:#13221A;
     padding-left:6px;
     padding-top: 5px;
+    font-weight: bold;
 
 }
 .flex-container {
@@ -103,7 +104,7 @@ a:link { color:#239C4F;
   
 /*visited link*/
 a:visited{
-    color:#ffffff;
+    color:#13221A;
 }
 /*mouse over link*/
 a:hover{
@@ -115,11 +116,12 @@ a:active {
     background-color:#f8de60;
     color:orangered;
 }
-.exp{
+.exp>p, h1{
     padding-top:20px;
     width: 1400px;
-    font-size: 70px;
+    font-size: 50px;
    padding-left:50px;
+   color:#13221A;
     
 }
    
